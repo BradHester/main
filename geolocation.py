@@ -6,6 +6,7 @@ import ephem
 import urllib.request as geturl
 import xmlUtility,xmltodict, collections
 import parser
+import LightUtility
 
 def sunsetfix():
     righthere=ephem.Observer()
@@ -16,25 +17,18 @@ def sunsetfix():
     print(righthere.next_setting(ephem.Sun(), use_center=True))
 
 
-def SunsetQuery(d):
+def SunsetQuery():
     #Get the current location and then determine Sunset time
     righthere=ephem.Observer()
     # righthere.lat=GetLatitude()
     righthere.lon=GetLongitude()
     righthere.date= GetTimeNow()
 
-
     timeforlights=righthere.next_setting(ephem.Sun(), use_center=True)
     x=timeforlights.datetime()
     #print("Latitude: ", righthere.lat, " Longitude: ", righthere.lon, "Date and Time: ", x)
     x=x+datetime.timedelta(days=-1,seconds= int(xmlUtility.GetfromXML("General", "UTCOffset")))
-    #print("Time for lights: ",x)
-    #print("Time Now: ",d )
-    #print(d, ">", x, " and ", d, "<", GetTimeOff())
-    if d > x and d < GetTimeOff():
-        return True
-    else:
-        return False
+    return x
 
 def GetUTCOffset():
     ts=datetime.datetime.timestamp(datetime.datetime.now())
@@ -45,12 +39,7 @@ def GetUTCOffset():
 def GetTimeNow():
     return datetime.datetime.now()
 
-def GetTimeOff():
-    x=datetime.datetime.now()
-    #print ("Pre time:",x)
-    y= x.replace(hour=20, minute=20, second=0, microsecond=0)
-    #print ("Turn off:",y)
-    return y
+
 
 def geocode(address):
     address = geturl.quote('https://maps.googleapis.com/maps/api/geocode/xml?address=%s' % address, safe="%/:=&?~#+!$,;'@()*[]" )

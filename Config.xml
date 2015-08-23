@@ -1,1 +1,15 @@
-<root><General><UTCOffset name="UTCOffset">34200</UTCOffset><lat>-34.0274634</lat><lng>150.7685868</lng></General></root>
+<root>
+    <General>
+        <UTCOffset name="UTCOffset">34200</UTCOffset>
+        <lat>-34.0274634</lat>
+        <lng>150.7685868</lng>
+    </General>
+    <Lights>
+        <overrideon>True</overrideon>
+        <OverrideTime>18:00</OverrideTime>
+        <TimeNextOn>x</TimeNextOn>
+        <Randomon>True</Randomon>
+        <TimeOff>22:30</TimeOff>
+        <LightsOn>False</LightsOn>
+    </Lights>
+</root>

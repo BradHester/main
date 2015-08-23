@@ -14,3 +14,24 @@
 06/08/2015 - 19:10:10 - Lights should be on
 23/08/2015 - 14:24:19 - Lights should be off
 23/08/2015 - 14:28:40 - Lights should be off
+23/08/2015 - 20:40:17 - Lights should be off
+23/08/2015 - 20:47:11 - Lights should be off
+23/08/2015 - 20:48:50 - Lights should be off
+23/08/2015 - 20:49:07 - Lights should be off
+23/08/2015 - 20:49:38 - Lights should be off
+23/08/2015 - 20:50:45 - Lights should be off
+23/08/2015 - 20:52:13 - Lights should be off
+23/08/2015 - 20:52:31 - Lights should be off
+23/08/2015 - 21:20:48 - Lights should be on
+23/08/2015 - 21:51:29 - Turning lights on
+23/08/2015 - 21:51:33 - Turning lights on
+23/08/2015 - 21:55:33 - Turning Lights On
+23/08/2015 - 21:55:50 - Turning Lights On
+23/08/2015 - 21:56:34 - Turning Lights On
+23/08/2015 - 21:58:14 - Turning Lights On
+23/08/2015 - 22:51:53 - Turning Lights Off. Next time set for: 17:14
+23/08/2015 - 22:51:58 - Turning Lights Off. Next time set for: 17:44
+23/08/2015 - 22:52:00 - Turning Lights Off. Next time set for: 17:51
+23/08/2015 - 22:52:41 - Turning Lights Off. Next time set for: 17:43
+23/08/2015 - 22:53:45 - Turning Lights On
+23/08/2015 - 22:53:57 - Turning Lights Off. Next time set for: 17:19

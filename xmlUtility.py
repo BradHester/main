@@ -34,3 +34,12 @@ def TestXML():
     rt = tree.getroot()
     for elem in rt.find("General"):
         print(elem.tag)
+
+def WriteToXML(element, entry, value):
+    tree = ET.ElementTree(file='config.xml')
+    rt = tree.getroot()
+    for elem in rt.find(element):
+        if elem.tag == entry:
+           #print (elem.tag, value)
+            elem.text = value
+            tree.write("Config.xml")
