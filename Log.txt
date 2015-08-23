@@ -1,0 +1,16 @@
+05/08/2015 - 19:51:18 - Lights should be on
+05/08/2015 - 19:55:11 - Lights should be on
+05/08/2015 - 20:00:11 - Lights should be on
+05/08/2015 - 20:05:11 - Lights should be on
+05/08/2015 - 20:10:11 - Lights should be on
+05/08/2015 - 20:15:11 - Lights should be on
+05/08/2015 - 20:20:11 - Lights should be off
+05/08/2015 - 20:25:11 - Lights should be off
+05/08/2015 - 20:30:11 - Lights should be off
+05/08/2015 - 20:35:11 - Lights should be off
+05/08/2015 - 20:40:11 - Lights should be off
+05/08/2015 - 20:45:11 - Lights should be off
+05/08/2015 - 20:50:11 - Lights should be off
+06/08/2015 - 19:10:10 - Lights should be on
+23/08/2015 - 14:24:19 - Lights should be off
+23/08/2015 - 14:28:40 - Lights should be off
