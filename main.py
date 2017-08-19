@@ -13,7 +13,7 @@ TimeNow = geolocation.GetTimeNow()
 geolocation.geocode("3 Galileo Street Gregory Hills")
 
 if xmlUtility.GetfromXML("Lights", "overrideon") == "True":
-    print("Override On")
+    print("Override On") #test
     z = time.strptime(xmlUtility.GetfromXML("Lights", "OverrideTime"), "%H:%M")
     y = TimeNow.replace(hour=z.tm_hour, minute=z.tm_min, second=0, microsecond=0)
     if TimeNow > y and TimeNow < LightUtility.GetTimeOff():
