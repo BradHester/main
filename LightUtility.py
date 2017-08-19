@@ -45,5 +45,5 @@ def TurnLightsOff():
     z=geolocation.SunsetQuery().replace(minute=random.randrange(10,60))
     x= str(z.hour)+":"+str(z.minute)
     LogUtility.writelog("Turning Lights Off. Next time set for: %s" %x)
-    xmlUtility.WriteToXML("Lights", "TimeNextOn", "x")
+    xmlUtility.WriteToXML("Lights", "TimeNextOn", x)
     xmlUtility.WriteToXML("Lights", "LightsOn", "False")

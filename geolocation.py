@@ -13,20 +13,20 @@ def sunsetfix():
     print(GetLongitude())
     righthere.lat=-34.0274634
     righthere.lon=150
-    #righthere.date= GetTimeNow()
+    righthere.date= GetTimeNow()
     print(righthere.next_setting(ephem.Sun(), use_center=True))
 
 
 def SunsetQuery():
     #Get the current location and then determine Sunset time
     righthere=ephem.Observer()
-    # righthere.lat=GetLatitude()
+    righthere.lat=GetLatitude()
     righthere.lon=GetLongitude()
     righthere.date= GetTimeNow()
 
     timeforlights=righthere.next_setting(ephem.Sun(), use_center=True)
     x=timeforlights.datetime()
-    #print("Latitude: ", righthere.lat, " Longitude: ", righthere.lon, "Date and Time: ", x)
+    print("Latitude: ", righthere.lat, " Longitude: ", righthere.lon, "Date and Time: ", x)
     x=x+datetime.timedelta(days=-1,seconds= int(xmlUtility.GetfromXML("General", "UTCOffset")))
     return x
 

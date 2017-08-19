@@ -7,9 +7,9 @@
     <Lights>
         <overrideon>True</overrideon>
         <OverrideTime>18:00</OverrideTime>
-        <TimeNextOn>x</TimeNextOn>
+        <TimeNextOn>17:16</TimeNextOn>
         <Randomon>True</Randomon>
-        <TimeOff>22:30</TimeOff>
+        <TimeOff>18:10</TimeOff>
         <LightsOn>False</LightsOn>
     </Lights>
 </root>

@@ -35,3 +35,7 @@
 23/08/2015 - 22:52:41 - Turning Lights Off. Next time set for: 17:43
 23/08/2015 - 22:53:45 - Turning Lights On
 23/08/2015 - 22:53:57 - Turning Lights Off. Next time set for: 17:19
+01/06/2017 - 18:11:18 - Turning Lights On
+01/06/2017 - 18:12:23 - Turning Lights Off. Next time set for: 17:31
+01/06/2017 - 18:17:44 - Turning Lights On
+01/06/2017 - 18:18:16 - Turning Lights Off. Next time set for: 17:16
