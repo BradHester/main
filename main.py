@@ -1,14 +1,16 @@
 __author__ = 'Brad_PC'
-import serial
 import geolocation
 import xmlUtility
 import LogUtility
 import LightUtility
 import time
+import geolocation
 
 #main
 
 TimeNow=geolocation.GetTimeNow()
+
+geolocation.geocode("3 Galileo Street Gregory Hills")
 
 if xmlUtility.GetfromXML("Lights","overrideon")=="True":
     print("Override On")
